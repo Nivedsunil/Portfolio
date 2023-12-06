@@ -1,0 +1,190 @@
+body{
+  background-color: #2d545e;
+  color: #feffff;
+  font-weight: 400;
+
+}
+h1{
+  font-size: 70px;
+  font-weight: 800;
+  color: #d8ab4e;
+  
+}
+h2{
+  font-size: 35px;
+  font-weight: 600;
+  
+}
+h4{
+  font-weight: 600;
+ color: hsl( 240 , 99%, 91%);
+}
+
+h6{
+  font-size: 14px;
+  font-weight: 500;
+ color: #D0D0D0;
+  
+}
+i:hover{
+  color: #ffff2c;
+}
+/* ------------navbar---------- */
+@media screen and (max-width: 576px)  {
+  /* .navbar{
+    background-color: #2d545e;
+    
+    
+  } */
+  ul{
+    background-color: #407785d6;
+  }
+}
+
+.navbar a:hover{
+  color: #ffff2c;
+}
+.navbar a{
+  color: #0b0c10;
+  font-weight: 500;
+}
+
+
+
+
+/* -------------dark mode------------------------ */
+.dark-mode {
+  background-color: #0b0c10;
+  color: #feffff;
+  
+  
+}
+
+.dark-mode .navbar-toggler {
+  background-color:#4d4d4f;
+ 
+
+}
+@media screen and (max-width: 576px)  {
+  .dark-mode ul{
+    background-color: #082c35d6;
+  }
+  /* .dark-mode .navbar{
+    background-color: #0b0c10;
+  } */
+}
+
+.dark-mode .navbar a{
+  color: #feffff;
+  
+  
+}
+.dark-mode .navbar a:hover{
+  color: #ffff2c;
+  
+  
+}
+.dark-mode h1{
+  color: #d8ab4e;
+}
+.dark-mode a{
+  color: aliceblue;
+ 
+}
+
+.dark-mode i{
+  color: aliceblue;
+}
+.dark-mode i:hover{
+  color: #ffff2c;
+}
+
+/* -----------------back to top button--------------------- */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+/* --------------home----------- */
+#home {
+  
+  height: 100vh;
+ 
+}
+
+#home a {
+  font-size: 30px;
+  padding: 10px;
+  text-decoration: none;
+  color: #0b0c10;
+}
+#contact-me a{
+  font-size: large;
+  color: #feffff;
+
+}
+
+/* ---------------about------------ */
+#about{
+  height: 70vh;
+}
+#about a {
+
+  background-color:  #F96167;
+  font-weight: 500;
+  border: none;
+  color: #feffff;
+}
+#about a:hover {
+  background-color:#f96166b6;
+  
+}
+
+
+/* -----------skills------------ */
+#skills{
+  
+  height: 100vh;
+}
+.progress-bar{
+  background-color: 8e8d8a;
+}
+
+
+/* -----------contact me------------ */
+
+#contact a{
+  color: #D0D0D0;
+
+}
+#contact p{
+  color: #D0D0D0;
+
+}
+.form-control{
+  color: aliceblue;
+}
+.form-control:focus{
+  color: aliceblue;
+}
+ #submit{
+  background-color: #F96167;
+  font-weight: 500;
+  border: none;
+  color: #feffff;
+}
+#submit:hover {
+  background-color:#f96166b6;
+  
+}
+
+
+
+
+
+
+
+
+
