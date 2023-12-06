@@ -114,6 +114,7 @@ i:hover{
  
 }
 
+
 #home a {
   font-size: 30px;
   padding: 10px;
@@ -124,6 +125,12 @@ i:hover{
   font-size: large;
   color: #feffff;
 
+}
+@media screen and (max-width: 576px)  {
+  #home{
+    height: auto;
+  }
+    
 }
 
 /* ---------------about------------ */
@@ -141,6 +148,12 @@ i:hover{
   background-color:#f96166b6;
   
 }
+@media screen and (max-width: 576px)  {
+  #about{
+    height: auto;
+  }
+    
+}
 
 
 /* -----------skills------------ */
@@ -148,8 +161,21 @@ i:hover{
   
   height: 100vh;
 }
+
 .progress-bar{
   background-color: 8e8d8a;
+}
+@media screen and (max-width: 576px)  {
+  #skills{
+    height: auto;
+  }
+    
+}
+@media screen and (max-width: 767px)  {
+  #skills{
+    height: auto;
+  }
+    
 }
 
 
