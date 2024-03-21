@@ -99,6 +99,10 @@ i:hover{
   color: #ffff2c;
 }
 
+.dark-mode #btn-back-to-top:hover{
+  background-color: #2d545e;
+}
+
 /* -----------------back to top button--------------------- */
 #btn-back-to-top {
   position: fixed;
@@ -169,14 +173,32 @@ i:hover{
   #skills{
     height: auto;
   }
+  #qualification{
+    height: auto;
+  }
+  
     
 }
-@media screen and (max-width: 767px)  {
+@media screen and (min-width: 576px)  {
   #skills{
     height: auto;
   }
+  #qualification{
+    height: auto;
+  }
+  
     
 }
+/* @media screen and (max-width: 767px)  {
+  #skills{
+    height: auto;
+  }
+  #qualification{
+    height: auto;
+  }
+  
+    
+} */
 
 
 /* -----------contact me------------ */
@@ -214,3 +236,28 @@ i:hover{
 
 
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-text {
+  flex-grow: 1; /* Allow the text to grow vertically */
+}
+
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+  transform: scale(0.9); 
+}
+
+
+/* .card-body .btn:hover{
+  background-color:  #2d545e33;
+} */
